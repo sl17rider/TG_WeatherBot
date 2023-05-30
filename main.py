@@ -1,10 +1,10 @@
 import requests
-from datetime import datetime
-from config import bot_token, open_weather_token
 from aiogram import Bot
 from aiogram.types import Message
 from aiogram.dispatcher import Dispatcher
 from aiogram.utils import executor
+from datetime import datetime
+from config import bot_token, open_weather_token
 
 
 bot = Bot(token=bot_token)
